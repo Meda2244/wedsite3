@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* //////////////////////// */
+  main .container-fluid{
+      background: url(../images/f17af27e2c91cd22636ac098a6fac552.webp) ;
+      text-align: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+  }
+  header .logo img {
+    width: 150px;
+    margin: -60px -25px;
+    border-radius: 5px;
+}
+
+  
+   i{
+      cursor: pointer;
+    
+   }
+  h2{
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-bottom: 30px;
+  }
+   /* ////////////////////// */
+  .card-gameela{
+      margin: 100px auto;
+  }
+
+  .card-img-overlay h4{
+      font-size: 28px;
+  }
+
+  .card-img-overlay .btn-wh{
+      width: 100px;
+      margin: 0 auto;
+  }
+
+  .card-img-overlay .card-img-top{
+    height: 300px;
+  }
+  
+  .card-gameela img {
+      border-top-left-radius: 150px;
+      border-bottom-right-radius: 150px;
+    }
+    
+    .card-gameela .card:hover img{
+      border-top-right-radius: 150px;
+      border-bottom-left-radius: 150px;
+      border-top-left-radius: 0;
+      border-bottom-right-radius: 0;
+      transition: 1s;
+    }
+
+    .card-gameela .card{
+     border: 0;
+    }
+   
+    /* ////////////////////////////// */
+    .wedding-g{
+      background: url(../images/photo-1517067729228-9fba1145bb3d.avif) ;
+      text-align: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 600px;
+      background-attachment: fixed; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: justify;
+      position: relative;
+    }
+
+    .wedding-g span{
+      color: rgb(202, 226, 43);
+    }
+
+    .wedding-g::after{
+      content: '';
+      width: 100%;
+      height: 600px;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.5);
+      position: absolute;
+    }
+
+    .order-box{
+      position: relative;
+      z-index: 5;
+    }
+
+    .wedding-g .card-header:active{
+      box-shadow: 2px 5px 50px 25px rgb(27, 146, 214);
+      background: rgb(10, 131, 201);;
+      color: black;
+    }
+
+    .card-header i{
+    opacity: 0;
+    }
+
+    .card-header:active i{
+    opacity: 1;
+    }
+    /* ////////////////////////////////////// */
+    .coll-img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      outline: 2px solid white;
+    }
+    .coll{
+      position: relative;
+    }
+    .coll .card::after{
+     content: '';
+     width: 0;
+     height: 0;
+     top: 0;
+     left: 0;
+     position: absolute;
+     background:rgba(0, 0, 0 ,0.5);
+     transition: 1s;
+  
+    }
+    .coll .card:hover::after{
+      width: 100%;
+      height: 100%;
+    }
+
+    .coll .card::before{
+      content: '';
+      width: 0;
+      height: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      background: rgba(255, 215, 0 , 0.5) ;
+      transition: 1s;
+  
+    }
+    .coll .card:hover::before{
+      width: 100%;
+      height: 100%;
+    }
+    .card-img-overlay{
+      z-index: 1;
+    }
+    
+   .card {
+    margin-top: 20px;
+   }
+   .catigory{
+    transition: 1s;
+   }
+   
+  .call-card h2{
+  margin-top: 50px;
+  }
+  /* /////////////////////////////////// */
+  footer{
+    margin-top: 150px;
+    background-color: rgb(110, 112, 112);
+    width: 100%;
+    height: 350px;
+   
+  }
+  footer h3{
+    background-color: blanchedalmond;
+  }
+  footer .card{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+  
+  }
